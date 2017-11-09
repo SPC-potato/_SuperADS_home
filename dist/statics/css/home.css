@@ -1,0 +1,134 @@
+.wrapper .header {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+.wrapper .header .bg-logo {
+  background-image: url(../../statics/images/logo-superads.png);
+}
+.wrapper .header .jumbotron {
+  background-color: transparent;
+  padding-top: 0;
+}
+.wrapper .header .jumbotron h1 {
+  font-size: 32px;
+  padding-top: 10vh;
+}
+.wrapper .header .jumbotron .container {
+  color: #333;
+}
+.wrapper .customer .panel {
+  cursor: pointer;
+  overflow: hidden;
+  height: 420px;
+}
+.wrapper .customer .panel:hover {
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+}
+.wrapper .customer .panel>.panel-img {
+  padding: 20px;
+}
+.wrapper .customer .panel>.panel-heading {
+  color: #333;
+  background-color: transparent;
+  border-color: transparent;
+}
+.wrapper .customer .panel a.btn {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -90px;
+}
+.wrapper .customer .title {
+  font-size: 36px;
+}
+.wrapper .customer .box {
+  height: 100vh;
+  padding: 20vh 0;
+}
+.wrapper .customer .box .box-info {
+  padding: 20px 0;
+}
+.wrapper .customer .box .box-info .box-title {
+  margin-bottom: 20px;
+}
+.wrapper .customer .box .box-btn-group a:first-child {
+  margin-right: 20px;
+}
+.wrapper .companion {
+  background-color: #f2f3f5;
+}
+.wrapper .companion h2 {
+  margin-bottom: 40px;
+}
+.wrapper .companion .cooperative-partner .img-box {
+  margin: 20px 5px 20px 5px;
+  background-color: #fff;
+  height: 100px;
+  line-height: 100px;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
+  height: 25vh;
+  line-height: 25vh;
+}
+.wrapper .companion .cooperative-partner .img-box img {
+  display: inline;
+  margin-bottom: 0;
+}
+.wrapper .bg-world {
+  background: url(../../statics/images/bg-world.jpg);
+}
+.wrapper .view-bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.wrapper .our-stats {
+  height: 100vh;
+}
+.wrapper .our-stats .stats-img {
+  padding-bottom: 30px;
+}
+.wrapper .our-stats .stats-data {
+  color: #c30f2a;
+  font-size: 40px;
+}
+.wrapper .our-stats .stats-msg {
+  font-size: 18px;
+}
+.jumbotron .swiper-container {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.jumbotron .swiper-container .phone-wrap {
+  position: relative;
+  z-index: 999;
+}
+.jumbotron .swiper-container .phone-wrap img {
+  height: 360px;
+  width: 180px;
+}
+.jumbotron .swiper-container .swiper-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.jumbotron .swiper-container .swiper-wrapper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 346px;
+  padding-top: 12px;
+}
+.jumbotron .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
