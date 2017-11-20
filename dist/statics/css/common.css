@@ -10781,13 +10781,13 @@ a:hover {
   background-color: #000;
 }
 .bg-logo {
-  background: url(../../statics/images/logo-superads.png) no-repeat;
+  background: url(/statics/images/logo-superads.png?764ead3d60fad38b83885a19fd92dee6) no-repeat;
 }
 .bg-logo-inversion {
-  background: url(../../statics/images/logo-superads-white.png) no-repeat;
+  background: url(/statics/images/logo-superads-white.png?91903f9ab6e1393b22997630a966c626) no-repeat;
 }
 .bg-img {
-  background: url(../../statics/images/bg-img.png);
+  background: url(/statics/images/bg-img.png?30ae6e24d6d3cd1da2f4bd84a8e9fd6a);
   background-size: 100% auto;
 }
 .btn {
@@ -12294,6 +12294,8 @@ a:hover {
 }
 .home-jumbotron {
   height: 100vh;
+  min-height: 700px;
+  position: relative;
 }
 .home-jumbotron h1 {
   font-size: 32px;
@@ -12302,7 +12304,7 @@ a:hover {
 .home-jumbotron .swiper-container {
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: 75px;
   width: 100%;
 }
 .home-jumbotron .swiper-container .phone-wrap {
@@ -12343,19 +12345,25 @@ a:hover {
 .home-customer .box-btn-group a:first-child {
   margin-right: 20px;
 }
-.home-stats .stats-img {
+.home-stats {
+  color: #fff;
+}
+.home-stats .stats-item {
+  font-size: 8em;
+}
+.home-stats .stats-item .stats-img {
   padding-bottom: 30px;
   max-width: 40%;
 }
-.home-stats .stats-data {
-  color: #c30f2a;
+.home-stats .stats-item .stats-data {
+  color: #fff;
   font-size: 40px;
 }
-.home-stats .stats-msg {
+.home-stats .stats-item .stats-msg {
   font-size: 18px;
 }
 .bg-world {
-  background: url(../../statics/images/bg-world.jpg);
+  background: url(/statics/images/bg-world.jpg?5b03a9be42131277087887e3d92c5af5);
 }
 .view-bg {
   width: 100%;
@@ -12555,7 +12563,7 @@ html[lang='en'] .lang-switch {
   display: block;
   width: 30px;
   height: 30px;
-  background: url(../../statics/images/icon-language.png) no-repeat;
+  background: url(/statics/images/icon-language.png?406f92c0692e9dfe3dafdf25c95c4cc6) no-repeat;
   background-size: 100%;
   background-position: 0 0;
 }
@@ -12563,7 +12571,7 @@ html[lang='cn'] .lang-switch {
   display: block;
   width: 30px;
   height: 30px;
-  background: url(../../statics/images/icon-language.png) no-repeat;
+  background: url(/statics/images/icon-language.png?406f92c0692e9dfe3dafdf25c95c4cc6) no-repeat;
   background-size: 100%;
   background-position: 0 100%;
 }

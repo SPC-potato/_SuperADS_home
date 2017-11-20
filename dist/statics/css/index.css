@@ -1,0 +1,51 @@
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.test {
+  width: 60%;
+  box-sizing: border-box;
+  color: #333;
+  font-family: 'Microsoft YaHei UI';
+}
+.test a {
+  text-decoration: none;
+  color: #333;
+}
+.test a:hover {
+  color: #c30f2a;
+}
+.test .left {
+  width: 30%;
+  vertical-align: middle;
+  display: inline-block;
+  box-sizing: inherit;
+}
+.test .left img {
+  max-width: 100%;
+  padding: 0 10px;
+}
+.test .right {
+  width: 70%;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: inherit;
+}
+.test .right .content {
+  padding-left: 20px;
+  border-left: 1px solid #eee;
+}
+.test .right .content .name {
+  font-size: 20px;
+  color: #c30f2a;
+}
+.test .right .content .job {
+  font-size: 14px;
+  vertical-align: bottom;
+  padding-left: 2px;
+}

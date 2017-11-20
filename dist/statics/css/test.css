@@ -1,0 +1,60 @@
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+.emailMedia {
+  padding: 30px 0;
+  color: #333;
+}
+.emailMedia a {
+  display: inline;
+}
+.emailMedia var {
+  font-style: normal;
+}
+.emailMedia .box {
+  font-family: 'Microsoft Yahei', 'Helvetic', 'Arial', 'sans-serif';
+  max-width: 300px;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.emailMedia .box a {
+  color: #999;
+  text-decoration: none;
+}
+.emailMedia .box a:hover {
+  color: #c30f2a;
+}
+.emailMedia .box .logo img {
+  max-width: 60%;
+}
+.emailMedia .box .border {
+  width: auto;
+  height: 3px;
+  background-color: #c30f2a;
+  background: -webkit-linear-gradient(left, #c30f2a, #fff); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #c30f2a, #fff); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #c30f2a, #fff); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #c30f2a, #fff); /* 标准的语法 */
+}
+.emailMedia .box .name {
+  font-size: 18px;
+}
+.emailMedia .box .post {
+  color: #c30f2a;
+  padding-left: 10px;
+}
+.emailMedia .box .sns {
+  margin-left: 10px;
+}
+.emailMedia .box .sns img {
+  width: 25%;
+  vertical-align: middle;
+}
+.emailMedia #outputWrap {
+  width: 100%;
+  height: 320px;
+}
